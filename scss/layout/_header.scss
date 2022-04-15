@@ -22,6 +22,7 @@
     padding: 0;
     margin: 0;
     @include respond(tab-port) {
+      visibility: hidden;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -29,10 +30,18 @@
       flex-direction: column;
     }
   }
+  .active {
+    visibility: visible;
+  }
   &__list--item {
     list-style: none;
     &:not(:last-child) {
       margin-right: 4rem;
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: 40px;
+        font-size: 20px;
+      }
     }
   }
   &__list--link {
