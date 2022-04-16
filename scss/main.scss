@@ -15,9 +15,3 @@
 
 @import "pages/contact";
 @import "pages/home";
-
-.heading {
-  color: $primary-color;
-  font-size: 75px;
-  @extend %center;
-}
