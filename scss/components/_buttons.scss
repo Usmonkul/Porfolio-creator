@@ -3,12 +3,28 @@
   line-height: 16px;
   padding: 17px 30px;
   display: inline-block;
+  white-space: nowrap;
   cursor: pointer;
 }
 .btn-dark {
   background-color: $black;
   color: $white;
+  &:hover {
+    opacity: 0.6;
+    color: $primary-color;
+  }
+  &:active {
+    opacity: 0.8;
+    color: $primary-color;
+  }
 }
 .btn-light {
   color: $black;
+  &:hover {
+    color: $primary-color;
+  }
+  &:active {
+    opacity: 0.8;
+    color: $primary-color;
+  }
 }
