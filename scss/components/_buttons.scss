@@ -1,0 +1,14 @@
+.btn {
+  font-size: 18px;
+  line-height: 16px;
+  padding: 17px 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn-dark {
+  background-color: $black;
+  color: $white;
+}
+.btn-light {
+  color: $black;
+}
